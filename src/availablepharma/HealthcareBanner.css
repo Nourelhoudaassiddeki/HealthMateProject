@@ -1,0 +1,90 @@
+/* Main container */
+@import "tailwindcss";
+/* Ensure full width container */
+.relative {
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Background Image */
+  .relative > div:first-child {
+    background-image: url('https://export-download.canva.com/EKLzc/DAGjUVEKLzc/8/0/0001-8911958809794990685.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250331%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250331T111128Z&X-Amz-Expires=31055&X-Amz-Signature=45b477edcdbc797a72b14b53487e80485e1b887c1abdacb1d84b122d964d82f6&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Templates%2520%26%2520Apps.png&response-expires=Mon%2C%2031%20Mar%202025%2019%3A49%3A03%20GMT');
+    background-size:contain;
+    background-position: center;
+    min-height: 108vh;
+  width: 100%;
+ top: 50px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  padding: 120px 102px ;
+  margin: 2px 122px 100px 0px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  }
+  .a{
+   
+    position: relative;
+     max-width: 50rem; /* Equivalent to max-w-lg */
+     height: 15rem;
+    background-color: rgba(192, 201, 187, 0.724); /* Semi-transparent white */
+    color: #111827; /* text-gray-900 */
+    padding: 0.1rem; /* p-6 */
+    border-radius: 0.9rem; /* rounded-lg */
+    top: 190px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* shadow-lg */
+    backdrop-filter: blur(10px); /* Smooth glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
+    transition: box-shadow 0.3s ease-in-out;
+
+  }
+  @media (min-width: 768px) {
+    .relative > div:first-child {
+      height: 400px; /* Larger screens */
+    }
+  }
+  
+  /* Semi-transparent Overlay */
+  .relative > section > div.absolute {
+    background-color: rgba(13, 71, 161, 0.5); /* Blue overlay */
+  }
+  
+  /* Content Box */
+  .relative > section > .relative {
+    position: relative;
+    z-index: 10;
+    max-width: 40rem; /* Limit width */
+    background-color: rgba(255, 255, 255, 0.9); /* White with transparency */
+    color: #1e3a8a; /* Dark blue text */
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  @media (min-width: 768px) {
+    .relative > section > .relative {
+      padding: 2.5rem;
+    }
+  }
+  
+  /* Headline */
+  .relative > section > .relative h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  
+  @media (min-width: 768px) {
+    .relative > section > .relative h1 {
+      font-size: 2.5rem;
+    }
+  }
+  
+  /* Paragraph */
+  .relative > section > .relative p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  

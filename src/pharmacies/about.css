@@ -1,0 +1,20 @@
+body{
+    margin-top:20px;
+    background:#F0F8FF;
+    }
+    .text-custom{
+    color: #5aae86 !important;
+    text-transform: capitalize;
+    
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 50px;
+        background-color: #fff;
+      }

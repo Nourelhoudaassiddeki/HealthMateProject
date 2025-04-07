@@ -1,0 +1,140 @@
+/* MedicineDetails.css */
+.medicine-details-container {
+  max-width: 1200px;
+  margin: 6rem 9rem auto;
+  padding: 0 1 rem;
+
+
+}
+
+.medicine-details-card {
+  display: flex;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Medicine Image */
+.medicine-image {
+  flex: 0 0 40%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+}
+
+.medicine-image img {
+  max-width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+}
+
+/* Medicine Info */
+.medicine-info {
+  flex: 0 0 60%;
+  padding: 2rem;
+}
+
+.medicine-name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.medicine-price {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #358c73;
+  margin-bottom: 1.5rem;
+}
+
+.medicine-manufacturer {
+  margin-bottom: 1.5rem;
+  color: #7f8c8d;
+}
+
+.medicine-manufacturer span {
+  font-weight: 600;
+  color: #34495e;
+}
+
+/* Medicine Specifications */
+.medicine-specs {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ecf0f1;
+  padding-bottom: 1.5rem;
+}
+
+.medicine-specs h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #34495e;
+  margin: 1.2rem 0 0.5rem 0;
+}
+
+.medicine-specs p {
+  color: #576574;
+  line-height: 1.6;
+  margin-bottom: 0.8rem;
+}
+
+/* Reviews */
+.medicine-reviews {
+  margin-bottom: 2rem;
+}
+
+.medicine-reviews h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #34495e;
+  margin-bottom: 1rem;
+}
+
+.review-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.review-label {
+  flex: 0 0 80px;
+  font-weight: 500;
+  color: #34495e;
+}
+
+.review-bar {
+  flex: 1;
+  height: 12px;
+  background-color: #ecf0f1;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 0 12px;
+}
+
+.review-progress {
+  height: 100%;
+  border-radius: 6px;
+}
+
+.review-progress.excellent {
+  background-color: #27ae60;
+}
+
+.review-progress.average {
+  background-color: #f39c12;
+}
+
+.review-progress.poor {
+  background-color: #e74c3c;
+}
+
+.review-percentage {
+  flex: 0 0 40px;
+  text-align: right;
+  font-weight: 500;
+  color: #34495e;
+}
+

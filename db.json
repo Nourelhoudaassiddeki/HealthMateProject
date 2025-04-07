@@ -1,0 +1,988 @@
+{
+  "medicines": [
+    {
+      "id": "1",
+      "name": "Avastin 400mg Injection",
+      "composition": "Bevacizumab (400mg)",
+      "manufacturer": "Roche Products India Pvt Ltd",
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/6/0/0001-8911958696443733815.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250329%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250329T185606Z&X-Amz-Expires=79319&X-Amz-Signature=552bb910aa07c936587378695ab3ece51dfa6d5e28475c27271f3aca90df93ab&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2030%20Mar%202025%2016%3A58%3A05%20GMT",
+      "average_review": 56,
+      "excellent_review": 22,
+      "poor_review": 22,
+      "side_effects": "Rectal bleeding, Taste change, Headache, Nosebleeds, Back pain, Dry skin, High blood pressure, Protein in urine, Inflammation of the nose",
+      "uses": "Cancer of colon and rectum, Non-small cell lung cancer, Kidney cancer, Brain tumor, Ovarian cancer, Cervical cancer",
+      "price": 1000
+    },
+    {
+      "id": "2",
+      "name": "Amoxycillin (500mg) + Clavulanic Acid (125mg)",
+      "composition": "Amoxycillin (500mg) + Clavulanic Acid (125mg)",
+      "manufacturer": "Glaxo SmithKline Pharmaceuticals Ltd",
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/8/0/0001-2172321852584016362.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250329%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250329T163500Z&X-Amz-Expires=87984&X-Amz-Signature=c39c1f6547097de03ad8d6209d63d8a4f4241c258f0899755071f9446892575f&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2030%20Mar%202025%2017%3A01%3A24%20GMT",
+      "average_review": 47,
+      "excellent_review": 18,
+      "poor_review": 18,
+      "side_effects": "Vomiting, Nausea, Diarrhea, Mucocutaneous candidiasis",
+      "uses": "Treatment of Bacterial infections",
+      "price": 700
+    },
+    {
+      "id": "3",
+      "name": "Azithromycin (500mg)",
+      "composition": "Azithromycin (500mg)",
+      "manufacturer": "Alembic Pharmaceuticals Ltd",
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/10/0/0001-5972234039283794227.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250329%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250329T171212Z&X-Amz-Expires=83859&X-Amz-Signature=f7956ab5abe5f50c10955c3df90b722fa1ffd1cb02868ec4ac16c60de9958256&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2030%20Mar%202025%2016%3A29%3A51%20GMT",
+      "average_review": 39,
+      "excellent_review": 21,
+      "poor_review": 18,
+      "side_effects": "Nausea, Abdominal pain, Diarrhea",
+      "uses": "Treatment of Bacterial infections",
+      "price": 85
+    },
+    {
+      "id": "4",
+      "name": "Ambroxol (30mg5ml) + Levosalbutamol (1mg5ml) + Guaifenesin (50mg5ml)",
+      "composition": "Ambroxol (30mg5ml) + Levosalbutamol (1mg5ml) + Guaifenesin (50mg5ml)",
+      "manufacturer": "Glenmark Pharmaceuticals Ltd",
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/14/0/0001-394525899193004988.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250330%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250330T123636Z&X-Amz-Expires=16824&X-Amz-Signature=417a22b832b84df3e2db46966e6aa1830a234bd20a21d89a041cb1158a60ae88&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2030%20Mar%202025%2017%3A17%3A00%20GMT",
+      "average_review": 24,
+      "excellent_review": 35,
+      "poor_review": 35,
+      "side_effects": "Nausea, Vomiting, Diarrhea, Upset stomach, Stomach pain, Allergic reaction, Dizziness, Headache, Rash, Hives, Tremors, Palpitations, Muscle cramp, Increased heart rate",
+      "uses": "Treatment of Cough with mucus",
+      "price": 300
+    },
+    {
+      "id": "9123",
+      "name": "Fluconazole (200mg)",
+      "composition": "Fluconazole (200mg)",
+      "manufacturer": "Torrent Pharmaceuticals Ltd",
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/19/0/0001-8329868852821261442.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250403%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250403T002718Z&X-Amz-Expires=52944&X-Amz-Signature=03eba99b0b0cadee7ce3f82f1cacc050330f6690fca051e34a2f68f832658039&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Thu%2C%2003%20Apr%202025%2015%3A09%3A42%20GMT",
+      "average_review": 33,
+      "excellent_review": 18,
+      "poor_review": 15,
+      "side_effects": "Headache, Nausea, Stomach pain",
+      "uses": "Treatment of Fungal infections",
+      "price": 100
+    },
+    {
+      "id": "9124",
+      "name": "Tibolone (2.5mg)",
+      "composition": "Tibolone (2.5mg)",
+      "manufacturer": "Serum Institute Of India Ltd",
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/23/0/0001-8703667861664643270.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250405%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250405T094535Z&X-Amz-Expires=50732&X-Amz-Signature=9ae572add3de43cb5e1744a468e643b1da65859fa247d185cf3e3910ed8218ba&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sat%2C%2005%20Apr%202025%2023%3A51%3A07%20GMT",
+      "average_review": 33,
+      "excellent_review": 27,
+      "poor_review": 6,
+      "side_effects": "Breast pain, Vaginal bleeding, Weight gain, Abnormal hair growth, Breast tenderness, Cervical thickening, Endometrial hyperplasia, Genital itching, Lower abdominal pain, Pelvic pain, Vaginal discharge",
+      "uses": "Hormone replacement therapy, Post menopausal osteoporosis",
+      "price": 100
+    },
+    {
+      "id": "9125",
+      "name": "Ursodeoxycholic Acid (150mg)",
+      "composition": "Ursodeoxycholic Acid (150mg)",
+      "manufacturer": "Franco-Indian Pharmaceuticals Pvt Ltd",
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/26/0/0001-5878784995042023435.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250405%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250405T120609Z&X-Amz-Expires=46152&X-Amz-Signature=0e3569c26a1bc21b7df936c06acf2f7f95247e79d4ee3ced133f16acc05cf51f&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2006%20Apr%202025%2000%3A55%3A21%20GMT",
+      "average_review": 19,
+      "excellent_review": 38,
+      "poor_review": 19,
+      "side_effects": "Abdominal pain, Diarrhea, Hair loss, Itching, Nausea, Rash",
+      "uses": "Treatment of Primary biliary cirrhosis, Treatment of Gallbladder stones",
+      "price": 200
+    },
+    {
+      "id": "5",
+      "name": "theraflu",
+      "composition": "qq",
+      "manufacturer": "q",
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/27/0/0001-2776930751906494038.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250405%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250405T180946Z&X-Amz-Expires=24378&X-Amz-Signature=fd07962ff408ac928d98193730c6d0d7eba2f49a1731a7a49ff6e439aec4ee55&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2006%20Apr%202025%2000%3A56%3A04%20GMT",
+      "average_review": "6",
+      "excellent_review": "20",
+      "poor_review": "74",
+      "side_effects": "acne",
+      "uses": "idk",
+      "price": "700"
+    },
+    {
+      "id": "3131",
+      "name": "cholesterol",
+      "composition": "jsp",
+      "manufacturer": "morocco",
+      "price": "300",
+      "image_url": "https://th.bing.com/th/id/R.687b6e2b05f25cd7ebee9261b2992291?rik=6w5ZC5kzP6QGjQ&pid=ImgRaw&r=0",
+      "uses": "for cholesterol",
+      "side_effects": "diabet",
+      "excellent_review": "80",
+      "average_review": "10",
+      "poor_review": "9"
+    },
+    {
+      "id": "9131",
+      "name": "Lori",
+      "composition": "Most of these effects are thought to result from facilitation of the action of gamma aminobutyric acid (GABA), an inhibitory neurotransmitter in the central nervous system .",
+      "manufacturer": "US",
+      "price": 80,
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/24/0/0001-5208874550488404097.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250405%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250405T142911Z&X-Amz-Expires=35261&X-Amz-Signature=fe218ab51481e6014a9d83f9ebe06b17c5e6fd78eab7d8eb59eeca0afd4dfe11&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2006%20Apr%202025%2000%3A16%3A52%20GMT",
+      "uses": "s",
+      "side_effects": "s",
+      "excellent_review": 0,
+      "average_review": 0,
+      "poor_review": 0
+    },
+    {
+      "id": "9126",
+      "name": "cancer med",
+      "composition": "Cancer Biology: Molecular biology ∙ cellular biology ∙ molecular genetics ∙ genomics ∙ immunology ∙ epigenetics ∙ metabolic studies ∙ proteomics ∙ cytopathology ∙ carcinogenesis ∙ drug discovery and delivery. Cancer Prevention: Behavioral science ∙ psychosocial studies ∙ screening ∙ nutrition ∙ epidemiology and prevention ∙ community outreach. Bioinformatics: Gene expressions profiles ∙ gene regulation networks ∙ genome bioinformatics ∙ pathwayanalysis",
+      "manufacturer": "US",
+      "price": 122,
+      "image_url": "https://th.bing.com/th/id/OIP.B8gK96xnqoX82eP0w9UppgHaEJ?rs=1&pid=ImgDetMains",
+      "uses": "2",
+      "side_effects": "2",
+      "excellent_review": 0,
+      "average_review": 0,
+      "poor_review": 0
+    },
+    {
+      "id": "9132",
+      "name": "algofine",
+      "composition": "nostoneome ,soriolement,sinodermophologue",
+      "manufacturer": "Maroc",
+      "price": 150,
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/29/0/0001-5878785006266467617.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250405%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250405T135012Z&X-Amz-Expires=41084&X-Amz-Signature=a2baa3672894934e5c7883d12facd5fa0dfdb64b406a77ea332a5f1c22d32f1e&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2006%20Apr%202025%2001%3A14%3A56%20GMT",
+      "uses": "nostoneome ,soriolement,sinodermophologue",
+      "side_effects": "acnee",
+      "excellent_review": 10,
+      "average_review": 70,
+      "poor_review": 20
+    },
+    {
+      "id": "9133",
+      "name": "niacide",
+      "composition": "acneeique",
+      "manufacturer": "France",
+      "price": 200,
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/29/0/0001-5878785006266467617.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250405%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250405T135012Z&X-Amz-Expires=41084&X-Amz-Signature=a2baa3672894934e5c7883d12facd5fa0dfdb64b406a77ea332a5f1c22d32f1e&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2006%20Apr%202025%2001%3A14%3A56%20GMT",
+      "uses": "for acnee",
+      "side_effects": "depression",
+      "excellent_review": 30,
+      "average_review": 50,
+      "poor_review": 20
+    },
+    {
+      "id": "9133",
+      "name": "niacide",
+      "composition": "acneeique",
+      "manufacturer": "France",
+      "price": 200,
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/29/0/0001-5878785006266467617.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250405%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250405T135012Z&X-Amz-Expires=41084&X-Amz-Signature=a2baa3672894934e5c7883d12facd5fa0dfdb64b406a77ea332a5f1c22d32f1e&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2006%20Apr%202025%2001%3A14%3A56%20GMT",
+      "uses": "acnee",
+      "side_effects": "anxiete",
+      "excellent_review": 60,
+      "average_review": 30,
+      "poor_review": 10
+    },
+    {
+      "id": "9134",
+      "name": "zineac",
+      "composition": "acneeique",
+      "manufacturer": "Us",
+      "price": 300,
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/29/0/0001-5878785006266467617.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250405%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250405T135012Z&X-Amz-Expires=41084&X-Amz-Signature=a2baa3672894934e5c7883d12facd5fa0dfdb64b406a77ea332a5f1c22d32f1e&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2006%20Apr%202025%2001%3A14%3A56%20GMT",
+      "uses": "acnee",
+      "side_effects": "angoisse",
+      "excellent_review": 0,
+      "average_review": 0,
+      "poor_review": 0
+    },
+    {
+      "id": "9135",
+      "name": "acnewine",
+      "composition": "acneeique",
+      "manufacturer": "Us",
+      "price": 270,
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/31/0/0001-1844685717535881013.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250406%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250406T093438Z&X-Amz-Expires=38138&X-Amz-Signature=7c433a7ae24488382323a290bb8610e144e846e9c2fd50d72efac3a9cf6f6640&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2006%20Apr%202025%2020%3A10%3A16%20GMT",
+      "uses": "acneique",
+      "side_effects": "nothing",
+      "excellent_review": 0,
+      "average_review": 0,
+      "poor_review": 0
+    },
+    {
+      "id": "9135",
+      "name": "acnewine",
+      "composition": "acneeique",
+      "manufacturer": "Us",
+      "price": 270,
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/31/0/0001-1844685717535881013.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250406%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250406T093438Z&X-Amz-Expires=38138&X-Amz-Signature=7c433a7ae24488382323a290bb8610e144e846e9c2fd50d72efac3a9cf6f6640&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2006%20Apr%202025%2020%3A10%3A16%20GMT",
+      "uses": "acnne",
+      "side_effects": "nth",
+      "excellent_review": 0,
+      "average_review": 0,
+      "poor_review": 0
+    },
+    {
+      "id": "9136",
+      "name": "fragile",
+      "composition": "jsp",
+      "manufacturer": "maroc",
+      "price": 100,
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/31/0/0001-1844685717535881013.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250406%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250406T093438Z&X-Amz-Expires=38138&X-Amz-Signature=7c433a7ae24488382323a290bb8610e144e846e9c2fd50d72efac3a9cf6f6640&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2006%20Apr%202025%2020%3A10%3A16%20GMT",
+      "uses": "d",
+      "side_effects": "c",
+      "excellent_review": 10,
+      "average_review": 50,
+      "poor_review": 39
+    },
+    {
+      "id": "9137",
+      "name": "Epiduo",
+      "composition": "acneeique",
+      "manufacturer": "Korea",
+      "price": 300,
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/32/0/0001-7202843376983407210.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250406%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250406T010720Z&X-Amz-Expires=72069&X-Amz-Signature=99ccc0fd20181c1b846c0296d3dffc61ace3e869785ecd5a4b4b6ae2643aef1e&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2006%20Apr%202025%2021%3A08%3A29%20GMT",
+      "uses": "acnee",
+      "side_effects": "nothing",
+      "excellent_review": 0,
+      "average_review": 0,
+      "poor_review": 0
+    },
+    {
+      "id": "9137",
+      "name": "Epiduo",
+      "composition": "acneeique",
+      "manufacturer": "Korea",
+      "price": 300,
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/32/0/0001-7202843376983407210.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250406%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250406T010720Z&X-Amz-Expires=72069&X-Amz-Signature=99ccc0fd20181c1b846c0296d3dffc61ace3e869785ecd5a4b4b6ae2643aef1e&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2006%20Apr%202025%2021%3A08%3A29%20GMT",
+      "uses": "s",
+      "side_effects": "s",
+      "excellent_review": 0,
+      "average_review": 0,
+      "poor_review": 0
+    },
+    {
+      "id": "9138",
+      "name": "spasfon",
+      "composition": "wlah ma3rft",
+      "manufacturer": "US",
+      "price": 70,
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/33/0/0001-232397071983865032.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250406%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250406T164148Z&X-Amz-Expires=30397&X-Amz-Signature=1426207e50b86884b0ff12d08a0b156af54ced46ad90f0581eac1e218f32df4e&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Mon%2C%2007%20Apr%202025%2001%3A08%3A25%20GMT",
+      "uses": "for stomachaches",
+      "side_effects": "nothing",
+      "excellent_review": 90,
+      "average_review": 8,
+      "poor_review": 2
+    },
+    {
+      "id": "9138",
+      "name": "spasfon",
+      "composition": "wlah ma3rft",
+      "manufacturer": "US",
+      "price": 70,
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/33/0/0001-232397071983865032.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250406%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250406T164148Z&X-Amz-Expires=30397&X-Amz-Signature=1426207e50b86884b0ff12d08a0b156af54ced46ad90f0581eac1e218f32df4e&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Mon%2C%2007%20Apr%202025%2001%3A08%3A25%20GMT",
+      "uses": "for stomachaches",
+      "side_effects": "walou",
+      "excellent_review": 98,
+      "average_review": 1,
+      "poor_review": 1
+    },
+    {
+      "id": "9139",
+      "name": "uriage",
+      "composition": "wlah ma3rft",
+      "manufacturer": "france",
+      "price": 180,
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/33/0/0001-232397071983865032.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250406%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250406T164148Z&X-Amz-Expires=30397&X-Amz-Signature=1426207e50b86884b0ff12d08a0b156af54ced46ad90f0581eac1e218f32df4e&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Mon%2C%2007%20Apr%202025%2001%3A08%3A25%20GMT",
+      "uses": "ecran",
+      "side_effects": "rien",
+      "excellent_review": 80,
+      "average_review": 10,
+      "poor_review": 10
+    },
+    {
+      "id": "9139",
+      "name": "uriage",
+      "composition": "wlah ma3rft",
+      "manufacturer": "france",
+      "price": 180,
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/33/0/0001-232397071983865032.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250406%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250406T164148Z&X-Amz-Expires=30397&X-Amz-Signature=1426207e50b86884b0ff12d08a0b156af54ced46ad90f0581eac1e218f32df4e&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Mon%2C%2007%20Apr%202025%2001%3A08%3A25%20GMT",
+      "uses": "ecran",
+      "side_effects": "j",
+      "excellent_review": 0,
+      "average_review": 0,
+      "poor_review": 0
+    },
+    {
+      "id": "9140",
+      "name": "isseac",
+      "composition": "nostoneome ,soriolement,sinodermophologue",
+      "manufacturer": "Romania",
+      "price": 190,
+      "image_url": "https://th.bing.com/th/id/OIP.asRK-xmyGL1SC-UD2grPXQHaD5?w=332&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "uses": "d",
+      "side_effects": "d",
+      "excellent_review": 20,
+      "average_review": 10,
+      "poor_review": 69
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "patient_name": "John Doe",
+      "address": "123 Main St",
+      "city": "New York",
+      "postcode": "10001",
+      "phone": "1234567890",
+      "created_at": "2024-03-19T12:00:00Z",
+      "updated_at": "2024-03-19T12:30:00Z",
+      "payment_id": "1"
+    },
+    {
+      "id": "8d26",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T15:37:15.372Z",
+      "updated_at": "2025-04-06T15:37:15.372Z"
+    },
+    {
+      "id": "8376",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "Benimellal",
+      "postcode": "25 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T21:08:55.127Z",
+      "updated_at": "2025-04-06T21:08:55.127Z"
+    },
+    {
+      "id": "258d",
+      "patient_name": "amine",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "MARRAKECH",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T21:09:39.885Z",
+      "updated_at": "2025-04-06T21:09:39.885Z"
+    },
+    {
+      "id": "fda6",
+      "patient_name": "amine",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "MARRAKECH",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T21:12:01.920Z",
+      "updated_at": "2025-04-06T21:12:01.920Z"
+    },
+    {
+      "id": "6842",
+      "patient_name": "Amine",
+      "address": "JSP",
+      "city": "Casa",
+      "postcode": "1299",
+      "phone": "2222029",
+      "created_at": "2025-04-06T21:12:27.715Z",
+      "updated_at": "2025-04-06T21:12:27.715Z"
+    },
+    {
+      "id": "5777",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "Benimellal",
+      "postcode": "25 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T21:16:15.519Z",
+      "updated_at": "2025-04-06T21:16:15.519Z"
+    },
+    {
+      "id": "3ee1",
+      "patient_name": "NOUR ELHOUDA",
+      "address": "243 LOT LA LAGUNE ESSAOUIRAdd",
+      "city": "ALL",
+      "postcode": "44 0003",
+      "phone": "06814231353",
+      "created_at": "2025-04-06T23:03:02.591Z",
+      "updated_at": "2025-04-06T23:03:02.591Z"
+    },
+    {
+      "id": "51a8",
+      "patient_name": "NOUR ELHOUDA",
+      "address": "243 LOT LA LAGUNE ESSAOUIRAdd",
+      "city": "all",
+      "postcode": "44 0003",
+      "phone": "06814231353",
+      "created_at": "2025-04-06T23:12:12.629Z",
+      "updated_at": "2025-04-06T23:12:12.629Z"
+    },
+    {
+      "id": "d2ec",
+      "patient_name": "NOUR ELHOUDA",
+      "address": "243 LOT LA LAGUNE ESSAOUIRAdd",
+      "city": "all",
+      "postcode": "44 0003",
+      "phone": "06814231353",
+      "created_at": "2025-04-06T23:15:08.289Z",
+      "updated_at": "2025-04-06T23:15:08.289Z"
+    },
+    {
+      "id": "f32e",
+      "patient_name": "NOUR ELHOUDA",
+      "address": "243 LOT LA LAGUNE ESSAOUIRAdd",
+      "city": "all",
+      "postcode": "44 0003",
+      "phone": "06814231353",
+      "created_at": "2025-04-06T23:15:51.197Z",
+      "updated_at": "2025-04-06T23:15:51.197Z"
+    },
+    {
+      "id": "9e45",
+      "patient_name": "NOUR ELHOUDA",
+      "address": "243 LOT LA LAGUNE ESSAOUIRAdd",
+      "city": "all",
+      "postcode": "44 0003",
+      "phone": "06814231353",
+      "created_at": "2025-04-06T23:32:19.519Z",
+      "updated_at": "2025-04-06T23:32:19.519Z"
+    },
+    {
+      "id": "26d4",
+      "patient_name": "nourelhouda",
+      "address": "essaouira",
+      "city": "ESSAOUIRA",
+      "postcode": "25 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-07T12:07:45.800Z",
+      "updated_at": "2025-04-07T12:07:45.801Z"
+    },
+    {
+      "id": "69dc",
+      "patient_name": "NOUR ELHOUDA",
+      "address": "243 LOT LA LAGUNE ESSAOUIRAdd",
+      "city": "all",
+      "postcode": "44 0003",
+      "phone": "06814231353",
+      "created_at": "2025-04-07T12:13:21.172Z",
+      "updated_at": "2025-04-07T12:13:21.172Z"
+    },
+    {
+      "id": "e7e0",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-07T12:51:48.030Z",
+      "updated_at": "2025-04-07T12:51:48.030Z"
+    },
+    {
+      "id": "1ab1",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-07T19:40:02.267Z",
+      "updated_at": "2025-04-07T19:40:02.268Z"
+    }
+  ],
+  "order_items": [
+    {
+      "id": "cfda",
+      "order_id": "1",
+      "medicine_id": "9132",
+      "pharmacy_id": "1",
+      "quantity": 4
+    },
+    {
+      "id": "cfda",
+      "order_id": "8d26",
+      "medicine_id": "9132",
+      "pharmacy_id": "1",
+      "quantity": 4
+    },
+    {
+      "id": "ec05",
+      "order_id": "8376",
+      "medicine_id": "9123",
+      "pharmacy_id": "1",
+      "quantity": 1
+    },
+    {
+      "id": "b5b0",
+      "order_id": "fda6",
+      "medicine_id": "9137",
+      "pharmacy_id": "2",
+      "quantity": 1
+    },
+    {
+      "id": "7cb4",
+      "order_id": "6842",
+      "medicine_id": "9134",
+      "pharmacy_id": "2",
+      "quantity": 1
+    },
+    {
+      "id": "b524",
+      "order_id": "5777",
+      "medicine_id": "5",
+      "pharmacy_id": "1",
+      "quantity": 1
+    },
+    {
+      "id": "fc23",
+      "order_id": "3ee1",
+      "medicine_id": "2",
+      "pharmacy_id": "1",
+      "quantity": 1
+    },
+    {
+      "id": "bb22",
+      "order_id": "51a8",
+      "medicine_id": "9138",
+      "pharmacy_id": "1",
+      "quantity": 1
+    },
+    {
+      "id": "d8c0",
+      "order_id": "d2ec",
+      "medicine_id": "9138",
+      "pharmacy_id": "2",
+      "quantity": 1
+    },
+    {
+      "id": "baa1",
+      "order_id": "f32e",
+      "medicine_id": "9138",
+      "pharmacy_id": "1",
+      "quantity": 2
+    },
+    {
+      "id": "7046",
+      "order_id": "9e45",
+      "medicine_id": "9137",
+      "pharmacy_id": "2",
+      "quantity": 1
+    },
+    {
+      "id": "7e37",
+      "order_id": "26d4",
+      "medicine_id": "9135",
+      "pharmacy_id": "2",
+      "quantity": 1
+    },
+    {
+      "id": "439f",
+      "order_id": "69dc",
+      "medicine_id": "9139",
+      "pharmacy_id": "2",
+      "quantity": 2
+    },
+    {
+      "id": "dcf8",
+      "order_id": "e7e0",
+      "medicine_id": "9139",
+      "pharmacy_id": "2",
+      "quantity": 1
+    },
+    {
+      "id": "1959",
+      "order_id": "e7e0",
+      "medicine_id": "2",
+      "pharmacy_id": "1",
+      "quantity": 2
+    },
+    {
+      "id": "744d",
+      "order_id": "1ab1",
+      "medicine_id": "1",
+      "pharmacy_id": "1",
+      "quantity": 1
+    },
+    {
+      "id": "faec",
+      "order_id": "1ab1",
+      "medicine_id": "9133",
+      "pharmacy_id": "2",
+      "quantity": 1
+    }
+  ],
+  "payments": [
+    {
+      "id": "1",
+      "card_number": "**** **** **** 1234",
+      "amount": 100.5,
+      "payment_date": "2024-03-19T12:30:00Z",
+      "payment_method": "Credit Card",
+      "order_id": 1
+    },
+    {
+      "id": "2",
+      "card_number": "**** **** **** 1234",
+      "amount": 100.5,
+      "payment_date": "2024-03-19T12:30:00Z",
+      "payment_method": "Credit Card",
+      "order_id": "8d26"
+    },
+    {
+      "id": "c9ca",
+      "card_number": "**** **** **** 2222",
+      "payment_method": "PayPal",
+      "order_id": "8376",
+      "amount": 117,
+      "payment_date": "2025-04-06T21:08:55.187Z"
+    },
+    {
+      "id": "4498",
+      "card_number": "**** **** **** 4000",
+      "payment_method": "Credit Card",
+      "order_id": "258d",
+      "amount": 321,
+      "payment_date": "2025-04-06T21:09:40.138Z"
+    },
+    {
+      "id": "8d08",
+      "card_number": "**** **** **** 4000",
+      "payment_method": "PayPal",
+      "order_id": "9c3a",
+      "amount": 321,
+      "payment_date": "2025-04-06T21:10:45.651Z"
+    },
+    {
+      "id": "87b9",
+      "card_number": "**** **** **** 4000",
+      "payment_method": "PayPal",
+      "order_id": "fda6",
+      "amount": 321,
+      "payment_date": "2025-04-06T21:12:02.168Z"
+    },
+    {
+      "id": "f889",
+      "card_number": "**** **** **** 99",
+      "payment_method": "PayPal",
+      "order_id": "6842",
+      "amount": 321,
+      "payment_date": "2025-04-06T21:12:27.808Z"
+    },
+    {
+      "id": "309f",
+      "card_number": "**** **** **** 3444",
+      "payment_method": "PayPal",
+      "order_id": "5777",
+      "amount": 749,
+      "payment_date": "2025-04-06T21:16:15.669Z"
+    },
+    {
+      "id": "c92f",
+      "card_number": "**** **** **** 0001",
+      "payment_method": "Credit Card",
+      "order_id": "3ee1",
+      "amount": 749,
+      "payment_date": "2025-04-06T23:03:02.673Z"
+    },
+    {
+      "id": "dd01",
+      "card_number": "**** **** **** 0001",
+      "payment_method": "Credit Card",
+      "order_id": "51a8",
+      "amount": 84.9,
+      "payment_date": "2025-04-06T23:12:12.715Z"
+    },
+    {
+      "id": "2c39",
+      "card_number": "**** **** **** 0001",
+      "payment_method": "Credit Card",
+      "order_id": "d2ec",
+      "amount": 84.9,
+      "payment_date": "2025-04-06T23:15:08.369Z"
+    },
+    {
+      "id": "f1cc",
+      "card_number": "**** **** **** 0001",
+      "payment_method": "Credit Card",
+      "order_id": "f32e",
+      "amount": 149.8,
+      "payment_date": "2025-04-06T23:15:51.236Z"
+    },
+    {
+      "id": "7422",
+      "card_number": "**** **** **** 0001",
+      "payment_method": "Credit Card",
+      "order_id": "9e45",
+      "amount": 321,
+      "payment_date": "2025-04-06T23:32:19.559Z"
+    },
+    {
+      "id": "6706",
+      "card_number": "**** **** **** 0001",
+      "payment_method": "Credit Card",
+      "order_id": "69dc",
+      "amount": 385.2,
+      "payment_date": "2025-04-07T12:13:21.193Z"
+    },
+    {
+      "id": "4b32",
+      "card_number": "**** **** **** 4000",
+      "payment_method": "Credit Card",
+      "order_id": "e7e0",
+      "amount": 1690.6,
+      "payment_date": "2025-04-07T12:51:48.131Z"
+    },
+    {
+      "id": "9b0e",
+      "card_number": "**** **** **** 3444",
+      "payment_method": "Credit Card",
+      "order_id": "1ab1",
+      "amount": 1284,
+      "payment_date": "2025-04-07T19:40:02.458Z"
+    }
+  ],
+  "pharmacies": [
+    {
+      "id": "1",
+      "name": "Essaouira Pharmacy",
+      "address": "456 Pharmacy Rd",
+      "phone": "9876543210",
+      "api_key": "ABC123XYZ",
+      "coordinate": "40.7128,-74.0060",
+      "link": "https://citypharmacy.com",
+      "status": "open",
+      "street": "Pharmacy Rd"
+    },
+    {
+      "id": "2",
+      "name": "najd Pharmacy",
+      "address": "456 Pharmacy Rd",
+      "phone": "9876543210",
+      "api_key": "ABC123XYZ",
+      "coordinate": "40.7128,-74.0060",
+      "link": "https://najdpharma.com",
+      "status": "open",
+      "street": "Pharmacy Rd"
+    }
+  ],
+  "users": [
+    {
+      "id": "2",
+      "first_name": "Alice",
+      "last_name": "Johnson",
+      "email": "pharmacieessaouira@gmail.com",
+      "password": "123",
+      "is_pharmacy": false,
+      "pharmacy_id": null
+    },
+    {
+      "id": "1",
+      "first_name": "Bob",
+      "last_name": "Smith",
+      "email": "pharmacist@gmail.com",
+      "password": "hashedpassword",
+      "is_pharmacy": true,
+      "pharmacy_id": 1
+    },
+    {
+      "id": "eaff",
+      "first_name": "Nour elhouda",
+      "last_name": "Assiddeki",
+      "email": "nourelhoudaassiddeki@gmail.com",
+      "password": "thebigboss",
+      "is_pharmacy": false,
+      "pharmacy_id": null
+    },
+    {
+      "id": "9b05",
+      "first_name": "nouna",
+      "last_name": "Assiddeki",
+      "email": "pharmanajd@gmail.com",
+      "password": "thebigboss",
+      "is_pharmacy": "on",
+      "pharmacy_id": 2
+    },
+    {
+      "id": "e8d6",
+      "first_name": "amine",
+      "last_name": "laamiri",
+      "email": "aminelaamiri@gmail.com",
+      "password": "amine",
+      "is_pharmacy": false,
+      "pharmacy_id": null
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "Admin"
+    },
+    {
+      "id": "2",
+      "name": "User"
+    }
+  ],
+  "user_roles": [
+    {
+      "user_id": 1,
+      "role_id": 1,
+      "id": "f3ba"
+    },
+    {
+      "user_id": 2,
+      "role_id": 2,
+      "id": "bb89"
+    }
+  ],
+  "pharmacy-medicines": [
+    {
+      "pharmacy_id": 1,
+      "medicine_id": 1,
+      "quantity": 8,
+      "id": "18f3"
+    },
+    {
+      "pharmacy_id": 1,
+      "medicine_id": 2,
+      "quantity": 0,
+      "id": "a771"
+    },
+    {
+      "pharmacy_id": 1,
+      "medicine_id": 3,
+      "quantity": 47,
+      "id": "8775"
+    },
+    {
+      "pharmacy_id": 1,
+      "medicine_id": 4,
+      "quantity": 16,
+      "id": "1285"
+    },
+    {
+      "pharmacy_id": 1,
+      "medicine_id": 9125,
+      "quantity": 12,
+      "id": "99eb"
+    },
+    {
+      "pharmacy_id": 1,
+      "medicine_id": 9124,
+      "quantity": 0,
+      "id": "10c5"
+    },
+    {
+      "pharmacy_id": 1,
+      "medicine_id": 9123,
+      "quantity": 5,
+      "id": "7770"
+    },
+    {
+      "id": "3fd7",
+      "pharmacy_id": 2,
+      "medicine_id": 3131,
+      "quantity": 39
+    },
+    {
+      "id": "3fd7",
+      "pharmacy_id": 1,
+      "medicine_id": 3131,
+      "quantity": 50
+    },
+    {
+      "id": "e40b",
+      "pharmacy_id": 1,
+      "medicine_id": 5,
+      "quantity": 5
+    },
+    {
+      "id": "0b25",
+      "pharmacy_id": 2,
+      "medicine_id": 9131,
+      "quantity": 30
+    },
+    {
+      "id": "6248",
+      "pharmacy_id": 1,
+      "medicine_id": 9131,
+      "quantity": 14
+    },
+    {
+      "id": "8b4d",
+      "pharmacy_id": 2,
+      "medicine_id": 9126,
+      "quantity": 20
+    },
+    {
+      "id": "21d1",
+      "pharmacy_id": 1,
+      "medicine_id": 9132,
+      "quantity": 6
+    },
+    {
+      "id": "3da5",
+      "pharmacy_id": 2,
+      "medicine_id": 9132,
+      "quantity": 10
+    },
+    {
+      "id": "b1c9",
+      "pharmacy_id": 1,
+      "medicine_id": 9133,
+      "quantity": 96
+    },
+    {
+      "id": "6a3a",
+      "pharmacy_id": 2,
+      "medicine_id": 9133,
+      "quantity": 98
+    },
+    {
+      "id": "378f",
+      "pharmacy_id": 2,
+      "medicine_id": 9134,
+      "quantity": 10
+    },
+    {
+      "id": "bd45",
+      "pharmacy_id": 1,
+      "medicine_id": 9135,
+      "quantity": 8
+    },
+    {
+      "id": "bc8d",
+      "pharmacy_id": 2,
+      "medicine_id": 9136,
+      "quantity": 8
+    },
+    {
+      "id": "f354",
+      "pharmacy_id": 2,
+      "medicine_id": 9137,
+      "quantity": 6
+    },
+    {
+      "id": "1206",
+      "pharmacy_id": 1,
+      "medicine_id": "9138",
+      "quantity": 97
+    },
+    {
+      "id": "5877",
+      "pharmacy_id": 2,
+      "medicine_id": "9138",
+      "quantity": 9
+    },
+    {
+      "id": "bab8",
+      "pharmacy_id": 2,
+      "medicine_id": "9139",
+      "quantity": 17
+    },
+    {
+      "id": "bf11",
+      "pharmacy_id": 2,
+      "medicine_id": "9140",
+      "quantity": 10
+    }
+  ]
+}

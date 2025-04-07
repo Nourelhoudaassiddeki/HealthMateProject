@@ -1,0 +1,311 @@
+[
+  {
+    "name": "Centre de Néphrologie et d'Hémodialyse International",
+    "city": "Essaouira",
+    "address": "Essaouira, Maroc",
+    "website": "https://essaouira-dialyse.com",
+    "opening_hours": "08:00 - 18:00",
+    "days_open": "Lundi - Samedi",
+    "phone": "+212 5-XXX-XXXXX",
+    "type": "Private",
+    "capacity": 15
+  },
+  {
+    "name": "Centre de Dialyse",
+    "city": "Fès",
+    "address": "Fès, Maroc",
+    "website": "https://www.dabadoc.com/ma/insuffisance-renale",
+    "opening_hours": "07:30 - 19:00",
+    "days_open": "Lundi - Samedi",
+    "phone": "+212 5-XXX-XXXXX",
+    "type": "Public",
+    "capacity": 20
+  },
+  {
+    "name": "Dialysis Centre El Hakim",
+    "city": "Fès",
+    "address": "Fès, Maroc",
+    "website": "https://www.bookdialysis.com/fr/morocco",
+    "opening_hours": "08:00 - 20:00",
+    "days_open": "Lundi - Dimanche",
+    "phone": "+212 5-XXX-XXXXX",
+    "type": "Private",
+    "capacity": 18
+  },
+  {
+    "name": "Centre de Dialyse Tazi",
+    "city": "Meknès",
+    "address": "14, rue de Tunis, Meknès, Maroc",
+    "website": "https://medicalis.ma/fiche/CENTRE-DE-DIALYSE-TAZI/41938",
+    "opening_hours": "07:00 - 18:30",
+    "days_open": "Lundi - Vendredi",
+    "phone": "+212 5-XXX-XXXXX",
+    "type": "Private",
+    "capacity": 12
+  },
+  {
+    "name": "Diaverum Centre d'Hémodialyse de Meknès El Basma",
+    "city": "Meknès",
+    "address": "Meknès, Maroc",
+    "website": "https://www.bookdialysis.com/fr/morocco",
+    "opening_hours": "08:00 - 19:00",
+    "days_open": "Lundi - Samedi",
+    "phone": "+212 5-XXX-XXXXX",
+    "type": "Private",
+    "capacity": 24
+  },
+  {
+    "name": "M'Hamid Dialysis Center",
+    "city": "Marrakech",
+    "address": "Marrakech, Maroc",
+    "website": "https://www.bookdialysis.com/fr/morocco",
+    "opening_hours": "07:30 - 20:00",
+    "days_open": "Lundi - Dimanche",
+    "phone": "+212 5-XXX-XXXXX",
+    "type": "Public",
+    "capacity": 30
+  },
+  {
+    "name": "Diaverum Centre d'Hémodialyse de Marrakech",
+    "city": "Marrakech",
+    "address": "Marrakech, Maroc",
+    "website": "https://www.bookdialysis.com/fr/morocco",
+    "opening_hours": "08:00 - 19:30",
+    "days_open": "Lundi - Samedi",
+    "phone": "+212 5-XXX-XXXXX",
+    "type": "Private",
+    "capacity": 28
+  },
+  {
+    "name": "Centre de Dialyse Plaza",
+    "city": "Marrakech",
+    "address": "Marrakech, Maroc",
+    "website": "https://www.clinique-plaza-marrakech.com/soins/centre-de-dialyse/",
+    "opening_hours": "08:00 - 18:00",
+    "days_open": "Lundi - Samedi",
+    "phone": "+212 5-XXX-XXXXX",
+    "type": "Private",
+    "capacity": 22
+  },
+  {
+    "name": "Centre d'Hémodialyse Ibn Tofail",
+    "city": "Marrakech",
+    "address": "CHU Mohammed VI, Marrakech, Morocco",
+    "website": "https://www.chumarrakech.ma/",
+    "opening_hours": "08:00 - 17:00",
+    "days_open": "Lundi - Vendredi",
+    "phone": "+212 5-XXX-XXXXX",
+    "type": "Public",
+    "capacity": 25
+  },
+  {
+    "name": "Centre de Néphrologie et de Dialyse Firdaous",
+    "city": "Casablanca",
+    "address": "Casablanca, Maroc",
+    "website": "https://www.bookdialysis.com/fr/morocco",
+    "opening_hours": "07:00 - 21:00",
+    "days_open": "Lundi - Dimanche",
+    "phone": "+212 5-XXX-XXXXX",
+    "type": "Private",
+    "capacity": 35
+  },
+  {
+    "name": "Centre de Dialyse Safi",
+    "city": "Safi",
+    "address": "Safi, Maroc",
+    "website": "https://www.safi-dialyse.com/",
+    "opening_hours": "08:00 - 18:00",
+    "days_open": "Lundi - Samedi",
+    "phone": "+212 5-XXX-XXXXX",
+    "type": "Public",
+    "capacity": 18
+  },
+  {
+    "name": "Centre d'Hémodialyse Agadir",
+    "city": "Agadir",
+    "address": "Agadir, Maroc",
+    "website": "https://www.agadir-dialyse.com/",
+    "opening_hours": "08:00 - 19:00",
+    "days_open": "Lundi - Samedi",
+    "phone": "+212 5-XXX-XXXXX",
+    "type": "Public",
+    "capacity": 25
+  },
+  {
+    "name": "Centre de Néphrologie et Dialyse Sud",
+    "city": "Agadir",
+    "address": "Agadir, Maroc",
+    "website": "https://www.nephrologie-sud-agadir.com/",
+    "opening_hours": "07:30 - 18:30",
+    "days_open": "Lundi - Samedi",
+    "phone": "+212 5-XXX-XXXXX",
+    "type": "Private",
+    "capacity": 20
+  },
+  {
+    "name": "Clinique des Spécialités Dialyse Agadir",
+    "city": "Agadir",
+    "address": "Agadir, Maroc",
+    "website": "https://www.clinique-agadir.com/",
+    "opening_hours": "08:00 - 20:00",
+    "days_open": "Lundi - Samedi",
+    "phone": "+212 5-XXX-XXXXX",
+    "type": "Private",
+    "capacity": 22
+  },
+  {
+    "name": "Centre d'Hémodialyse Al Massira",
+    "city": "Agadir",
+    "address": "Agadir, Maroc",
+    "website": "https://www.al-massira-dialyse.com/",
+    "opening_hours": "08:00 - 18:00",
+    "days_open": "Lundi - Dimanche",
+    "phone": "+212 5-XXX-XXXXX",
+    "type": "Public",
+    "capacity": 28
+  },
+  {
+    "name": "Centre de Dialyse Taghazout",
+    "city": "Agadir",
+    "address": "Taghazout, Agadir, Maroc",
+    "website": "https://www.taghazout-dialyse.com/",
+    "opening_hours": "07:30 - 18:00",
+    "days_open": "Lundi - Samedi",
+    "phone": "+212 5-XXX-XXXXX",
+    "type": "Private",
+    "capacity": 15
+  },{
+    "name": "Centre d'Hémodialyse Al Hoceima",
+    "city": "Al Hoceima",
+    "address": "Al Hoceima, Morocco",
+    "website": "N/A",
+    "opening_hours": "07:30 - 18:00",
+    "days_open": "Lundi - Vendredi",
+    "phone": "+212 5-XXX-XXXXX",
+    "type": "Public",
+    "capacity": 15
+  },
+  {
+    "name": "Centre d'Hémodialyse Beni Mellal",
+    "city": "Beni Mellal",
+    "address": "Beni Mellal, Morocco",
+    "website": "N/A",
+    "opening_hours": "08:00 - 17:00",
+    "days_open": "Lundi - Vendredi",
+    "phone": "+212 5-XXX-XXXXX",
+    "type": "Public",
+    "capacity": 10
+  },
+    {
+      "name": "Pr Fatima Ezaitouni",
+      "city": "Rabat",
+      "address": "Rabat, Morocco",
+      "website": "https://www.dabadoc.com/ma/en/dialysis-center/rabat",
+      "opening_hours": "Not specified",
+      "days_open": "Not specified",
+      "phone": "Not specified",
+      "type": "Private",
+      "capacity": "Not specified"
+    },
+    {
+      "name": "Centre d'Hémodialyse El Jawhara Kenitra – Dr Tahiri Ahmed",
+      "city": "Kénitra",
+      "address": "23 Rue Med El Korri, Kénitra, Morocco",
+      "website": "https://capri.ae/nour/annuaire/centre-de-dialyse-berkane/",
+      "opening_hours": "Not specified",
+      "days_open": "Not specified",
+      "phone": "+212 5373-78714",
+      "type": "Private",
+      "capacity": "Not specified"
+    },
+      {
+        "name": "Pr Fatima Ezaitouni",
+        "city": "Rabat",
+        "address": "Rabat, Morocco",
+        "website": "https://www.dabadoc.com/ma/en/dialysis-center/rabat",
+        "opening_hours": "Not specified",
+        "days_open": "Not specified",
+        "phone": "Not specified",
+        "type": "Private",
+        "capacity": "Not specified"
+      },
+      {
+        "name": "Centre d'Hémodialyse El Jawhara Kenitra – Dr Tahiri Ahmed",
+        "city": "Kénitra",
+        "address": "23 Rue Med El Korri, Kénitra, Morocco",
+        "website": "Not specified",
+        "opening_hours": "Not specified",
+        "days_open": "Not specified",
+        "phone": "+212 5373-78714",
+        "type": "Private",
+        "capacity": "Not specified"
+      },
+     
+      {
+        "name": "Centre de Hémodialyse Ibn Sina",
+        "city": "Salé",
+        "address": "Salé, Morocco",
+        "website": "Not specified",
+        "opening_hours": "Not specified",
+        "days_open": "Not specified",
+        "phone": "Not specified",
+        "type": "Private",
+        "capacity": "Not specified"
+      },
+    
+      {
+        "name": "Centre de Dialyse Al Gharb",
+        "city": "Sidi Slimane",
+        "address": "Sidi Slimane, Morocco",
+        "website": "Not specified",
+        "opening_hours": "06:00 - 20:00",
+        "days_open": "Monday - Saturday",
+        "phone": "Not specified",
+        "type": "Private",
+        "capacity": "Not specified"
+      },
+      {
+        "name": "Centre de Dialyse Berkane",
+        "city": "Berkane",
+        "address": "Berkane, Morocco",
+        "website": "Not specified",
+        "opening_hours": "Not specified",
+        "days_open": "Not specified",
+        "phone": "+212 80-8504684",
+        "type": "Private",
+        "capacity": "Not specified"
+      },
+      {
+        "name": "Centre de Hémodialyse Ibn Sina",
+        "city": "Salé",
+        "address": "Salé, Morocco",
+        "website": "Not specified",
+        "opening_hours": "Not specified",
+        "days_open": "Not specified",
+        "phone": "Not specified",
+        "type": "Private",
+        "capacity": "Not specified"
+      },
+      {
+        "name": "Centre de Dialyse Souk Larbaa",
+        "city": "Souk El Arbaa",
+        "address": "Souk El Arbaa, Morocco",
+        "website": "Not specified",
+        "opening_hours": "Not specified",
+        "days_open": "Not specified",
+        "phone": "Not specified",
+        "type": "Private",
+        "capacity": "Not specified"
+      },
+      {
+        "name": "Centre d'Hémodialyse Mohammedia",
+        "city": "Mohammedia",
+        "address": "Mohammedia, Morocco",
+        "website": "N/A",
+        "opening_hours": "07:00 - 18:30",
+        "days_open": "Lundi - Vendredi",
+        "phone": "+212 5-XXX-XXXXX",
+        "type": "Private",
+        "capacity": 12
+      }
+]

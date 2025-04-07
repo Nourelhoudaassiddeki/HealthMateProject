@@ -1,0 +1,187 @@
+@import "tailwindcss";
+.home {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 12px 12px 12px;
+  margin: 20px 0px 00px 0px;
+  background-repeat: no-repeat;
+  background-size: 100% auto; /* This will stretch the image to 100% width */
+  background-image: url('/App2.png');
+  background-position: center top;
+}
+/* relative w-full h-[320px] bg-no-repeat bg-cover bg-center absolute inset-0 opacity-70*/
+
+/* Section styling */
+#products, #research, #contact {
+  padding: 5rem 1rem;
+}
+
+/* Headings */
+h2 {
+  color: #064110;
+  position: relative;
+  padding-bottom: 0.75rem;
+}
+
+h2:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background-color: #064110}
+
+h3 {
+  color: #064110;
+}
+
+/* Product cards */
+.bg-gray-50 {
+  background-color: #f9fafc;
+}
+
+.bg-gray-50.rounded-lg {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #e5e7eb;
+}
+
+.bg-gray-50.rounded-lg:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+button {
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  background-color: #064110;
+}
+
+button:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: width 0.3s ease;
+  background-color: #064110;
+}
+
+button:hover:after {
+  width: 100%;
+
+}
+
+/* Research cards */
+.bg-white.p-6.rounded-lg {
+  transition: transform 0.3s ease;
+  border: 1px solid #e5e7eb;
+}
+
+.bg-white.p-6.rounded-lg:hover {
+  transform: translateY(-3px);
+}
+
+/* Form elements */
+input, textarea {
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  border-color: #064110;
+  box-shadow: 0 0 0 3px #064110;
+}
+
+/* Submit button pulse animation */
+@keyframes pulse {
+  
+  20% {
+    box-shadow: 0 0 0 7px #083f19;
+  }
+ 
+}
+
+form button[type="submit"] {
+  background: linear-gradient(135deg,  #335237, #1a3222);
+  animation: pulse 2s infinite;
+}
+
+/* Contact section enhancement */
+#contact {
+  background-color: #f8fafc;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.75rem;
+  }
+  
+  h2:after {
+    width: 60px;
+  }
+  
+  .home {
+    background-position: 70% center;
+  }
+}
+.abouthealth{
+  color:#064110
+}
+
+/* Print styles for better document appearance */
+@media print {
+  .home, nav {
+    display: none;
+  }
+  
+  #products, #research, #contact {
+    padding: 1rem 0;
+    page-break-inside: avoid;
+  }
+}
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+}
+/* General Section Styling */
+#about {
+  @apply py-20 bg-white;
+}
+
+/* Heading Styling */
+#about h2 {
+  @apply text-4xl font-extrabold text-center text-blue-800 mb-10;
+}
+
+/* Mission & Values Text */
+#about p, #about ul li {
+  @apply text-gray-700 leading-relaxed;
+}
+
+/* Icon Styling */
+#about ul li svg {
+  @apply transition-transform duration-300 ease-in-out transform;
+}
+
+#about ul li:hover svg {
+  @apply scale-110 text-green-700;
+}
+
+/* Video Styling */
+#about video {
+  @apply w-full h-full object-cover rounded-lg shadow-lg transition-transform duration-300;
+}
+
+#about video:hover {
+  @apply scale-105;
+}

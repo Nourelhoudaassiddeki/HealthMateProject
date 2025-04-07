@@ -1,0 +1,1413 @@
+{
+  "medicines": [
+    {
+      "id": "1",
+      "name": "Avastin 400mg Injection",
+      "composition": "Bevacizumab (400mg)",
+      "manufacturer": "Roche Products India Pvt Ltd",
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/6/0/0001-8911958696443733815.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250329%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250329T185606Z&X-Amz-Expires=79319&X-Amz-Signature=552bb910aa07c936587378695ab3ece51dfa6d5e28475c27271f3aca90df93ab&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2030%20Mar%202025%2016%3A58%3A05%20GMT",
+      "average_review": 56,
+      "excellent_review": 22,
+      "poor_review": 22,
+      "side_effects": "Rectal bleeding, Taste change, Headache, Nosebleeds, Back pain, Dry skin, High blood pressure, Protein in urine, Inflammation of the nose",
+      "uses": "Cancer of colon and rectum, Non-small cell lung cancer, Kidney cancer, Brain tumor, Ovarian cancer, Cervical cancer",
+      "price": 1000
+    },
+    {
+      "id": "2",
+      "name": "Amoxycillin (500mg) + Clavulanic Acid (125mg)",
+      "composition": "Amoxycillin (500mg) + Clavulanic Acid (125mg)",
+      "manufacturer": "Glaxo SmithKline Pharmaceuticals Ltd",
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/8/0/0001-2172321852584016362.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250329%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250329T163500Z&X-Amz-Expires=87984&X-Amz-Signature=c39c1f6547097de03ad8d6209d63d8a4f4241c258f0899755071f9446892575f&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2030%20Mar%202025%2017%3A01%3A24%20GMT",
+      "average_review": 47,
+      "excellent_review": 18,
+      "poor_review": 18,
+      "side_effects": "Vomiting, Nausea, Diarrhea, Mucocutaneous candidiasis",
+      "uses": "Treatment of Bacterial infections",
+      "price": 700
+    },
+    {
+      "id": "3",
+      "name": "Azithromycin (500mg)",
+      "composition": "Azithromycin (500mg)",
+      "manufacturer": "Alembic Pharmaceuticals Ltd",
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/10/0/0001-5972234039283794227.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250329%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250329T171212Z&X-Amz-Expires=83859&X-Amz-Signature=f7956ab5abe5f50c10955c3df90b722fa1ffd1cb02868ec4ac16c60de9958256&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2030%20Mar%202025%2016%3A29%3A51%20GMT",
+      "average_review": 39,
+      "excellent_review": 21,
+      "poor_review": 18,
+      "side_effects": "Nausea, Abdominal pain, Diarrhea",
+      "uses": "Treatment of Bacterial infections",
+      "price": 85
+    },
+    {
+      "id": "4",
+      "name": "Ambroxol (30mg5ml) + Levosalbutamol (1mg5ml) + Guaifenesin (50mg5ml)",
+      "composition": "Ambroxol (30mg5ml) + Levosalbutamol (1mg5ml) + Guaifenesin (50mg5ml)",
+      "manufacturer": "Glenmark Pharmaceuticals Ltd",
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/14/0/0001-394525899193004988.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250330%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250330T123636Z&X-Amz-Expires=16824&X-Amz-Signature=417a22b832b84df3e2db46966e6aa1830a234bd20a21d89a041cb1158a60ae88&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2030%20Mar%202025%2017%3A17%3A00%20GMT",
+      "average_review": 24,
+      "excellent_review": 35,
+      "poor_review": 35,
+      "side_effects": "Nausea, Vomiting, Diarrhea, Upset stomach, Stomach pain, Allergic reaction, Dizziness, Headache, Rash, Hives, Tremors, Palpitations, Muscle cramp, Increased heart rate",
+      "uses": "Treatment of Cough with mucus",
+      "price": 300
+    },
+    {
+      "id": "9123",
+      "name": "Fluconazole (200mg)",
+      "composition": "Fluconazole (200mg)",
+      "manufacturer": "Torrent Pharmaceuticals Ltd",
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/19/0/0001-8329868852821261442.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250403%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250403T002718Z&X-Amz-Expires=52944&X-Amz-Signature=03eba99b0b0cadee7ce3f82f1cacc050330f6690fca051e34a2f68f832658039&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Thu%2C%2003%20Apr%202025%2015%3A09%3A42%20GMT",
+      "average_review": 33,
+      "excellent_review": 18,
+      "poor_review": 15,
+      "side_effects": "Headache, Nausea, Stomach pain",
+      "uses": "Treatment of Fungal infections",
+      "price": 100
+    },
+    {
+      "id": "9124",
+      "name": "Tibolone (2.5mg)",
+      "composition": "Tibolone (2.5mg)",
+      "manufacturer": "Serum Institute Of India Ltd",
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/23/0/0001-8703667861664643270.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250405%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250405T094535Z&X-Amz-Expires=50732&X-Amz-Signature=9ae572add3de43cb5e1744a468e643b1da65859fa247d185cf3e3910ed8218ba&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sat%2C%2005%20Apr%202025%2023%3A51%3A07%20GMT",
+      "average_review": 33,
+      "excellent_review": 27,
+      "poor_review": 6,
+      "side_effects": "Breast pain, Vaginal bleeding, Weight gain, Abnormal hair growth, Breast tenderness, Cervical thickening, Endometrial hyperplasia, Genital itching, Lower abdominal pain, Pelvic pain, Vaginal discharge",
+      "uses": "Hormone replacement therapy, Post menopausal osteoporosis",
+      "price": 100
+    },
+    {
+      "id": "9125",
+      "name": "Ursodeoxycholic Acid (150mg)",
+      "composition": "Ursodeoxycholic Acid (150mg)",
+      "manufacturer": "Franco-Indian Pharmaceuticals Pvt Ltd",
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/26/0/0001-5878784995042023435.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250405%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250405T120609Z&X-Amz-Expires=46152&X-Amz-Signature=0e3569c26a1bc21b7df936c06acf2f7f95247e79d4ee3ced133f16acc05cf51f&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2006%20Apr%202025%2000%3A55%3A21%20GMT",
+      "average_review": 19,
+      "excellent_review": 38,
+      "poor_review": 19,
+      "side_effects": "Abdominal pain, Diarrhea, Hair loss, Itching, Nausea, Rash",
+      "uses": "Treatment of Primary biliary cirrhosis, Treatment of Gallbladder stones",
+      "price": 200
+    },
+    {
+      "id": "5",
+      "name": "theraflu",
+      "composition": "qq",
+      "manufacturer": "q",
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/27/0/0001-2776930751906494038.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250405%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250405T180946Z&X-Amz-Expires=24378&X-Amz-Signature=fd07962ff408ac928d98193730c6d0d7eba2f49a1731a7a49ff6e439aec4ee55&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2006%20Apr%202025%2000%3A56%3A04%20GMT",
+      "average_review": "6",
+      "excellent_review": "20",
+      "poor_review": "74",
+      "side_effects": "acne",
+      "uses": "idk",
+      "price": "700"
+    },
+    {
+      "id": "3131",
+      "name": "cholesterol",
+      "composition": "jsp",
+      "manufacturer": "morocco",
+      "price": "300",
+      "image_url": "https://th.bing.com/th/id/R.687b6e2b05f25cd7ebee9261b2992291?rik=6w5ZC5kzP6QGjQ&pid=ImgRaw&r=0",
+      "uses": "for cholesterol",
+      "side_effects": "diabet",
+      "excellent_review": "80",
+      "average_review": "10",
+      "poor_review": "9"
+    },
+    {
+      "id": "9131",
+      "name": "Lori",
+      "composition": "Most of these effects are thought to result from facilitation of the action of gamma aminobutyric acid (GABA), an inhibitory neurotransmitter in the central nervous system .",
+      "manufacturer": "US",
+      "price": 80,
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/24/0/0001-5208874550488404097.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250405%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250405T142911Z&X-Amz-Expires=35261&X-Amz-Signature=fe218ab51481e6014a9d83f9ebe06b17c5e6fd78eab7d8eb59eeca0afd4dfe11&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2006%20Apr%202025%2000%3A16%3A52%20GMT",
+      "uses": "s",
+      "side_effects": "s",
+      "excellent_review": 0,
+      "average_review": 0,
+      "poor_review": 0
+    },
+    {
+      "id": "9126",
+      "name": "cancer med",
+      "composition": "Cancer Biology: Molecular biology ∙ cellular biology ∙ molecular genetics ∙ genomics ∙ immunology ∙ epigenetics ∙ metabolic studies ∙ proteomics ∙ cytopathology ∙ carcinogenesis ∙ drug discovery and delivery. Cancer Prevention: Behavioral science ∙ psychosocial studies ∙ screening ∙ nutrition ∙ epidemiology and prevention ∙ community outreach. Bioinformatics: Gene expressions profiles ∙ gene regulation networks ∙ genome bioinformatics ∙ pathwayanalysis",
+      "manufacturer": "US",
+      "price": 122,
+      "image_url": "https://th.bing.com/th/id/OIP.B8gK96xnqoX82eP0w9UppgHaEJ?rs=1&pid=ImgDetMains",
+      "uses": "2",
+      "side_effects": "2",
+      "excellent_review": 0,
+      "average_review": 0,
+      "poor_review": 0
+    },
+    {
+      "id": "9132",
+      "name": "algofine",
+      "composition": "nostoneome ,soriolement,sinodermophologue",
+      "manufacturer": "Maroc",
+      "price": 150,
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/29/0/0001-5878785006266467617.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250405%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250405T135012Z&X-Amz-Expires=41084&X-Amz-Signature=a2baa3672894934e5c7883d12facd5fa0dfdb64b406a77ea332a5f1c22d32f1e&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2006%20Apr%202025%2001%3A14%3A56%20GMT",
+      "uses": "nostoneome ,soriolement,sinodermophologue",
+      "side_effects": "acnee",
+      "excellent_review": 10,
+      "average_review": 70,
+      "poor_review": 20
+    },
+    {
+      "id": "9132",
+      "name": "algofine",
+      "composition": "nostoneome ,soriolement,sinodermophologue",
+      "manufacturer": "Maroc",
+      "price": 100,
+      "image_url": "https://export-download.canva.com/mEHc4/DAGjN2mEHc4/28/0/0001-979994500923910317.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250405%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250405T181154Z&X-Amz-Expires=23207&X-Amz-Signature=449604429ea0ff2fdb249a3d15d6453a579919d97a5296a6354221329f852d3f&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Your%2520paragraph%2520text.png&response-expires=Sun%2C%2006%20Apr%202025%2000%3A38%3A41%20GMT",
+      "uses": "s",
+      "side_effects": "s",
+      "excellent_review": 0,
+      "average_review": 0,
+      "poor_review": 0
+    },
+    {
+      "id": "9133",
+      "name": "jsp",
+      "composition": "jsp",
+      "manufacturer": "maroc",
+      "price": 1,
+      "image_url": "jsp",
+      "uses": "jsp",
+      "side_effects": "jsp",
+      "excellent_review": 0,
+      "average_review": 0,
+      "poor_review": 0
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "patient_name": "John Doe",
+      "address": "123 Main St",
+      "city": "New York",
+      "postcode": "10001",
+      "phone": "1234567890",
+      "created_at": "2024-03-19T12:00:00Z",
+      "updated_at": "2024-03-19T12:30:00Z",
+      "payment_id": "1"
+    },
+    {
+      "id": "5b1b",
+      "patient_name": "a",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-03-23T00:43:29.231Z",
+      "updated_at": "2025-03-23T00:43:29.231Z"
+    },
+    {
+      "id": "7b76",
+      "patient_name": "a",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-03-23T00:57:46.634Z",
+      "updated_at": "2025-03-23T00:57:46.634Z"
+    },
+    {
+      "id": "e73d",
+      "patient_name": "amine",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-03-24T00:14:37.964Z",
+      "updated_at": "2025-03-24T00:14:37.964Z"
+    },
+    {
+      "id": "2958",
+      "patient_name": "amine",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-03-24T00:15:00.675Z",
+      "updated_at": "2025-03-24T00:15:00.675Z"
+    },
+    {
+      "id": "e879",
+      "patient_name": "amine",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-03-24T00:23:29.076Z",
+      "updated_at": "2025-03-24T00:23:29.076Z"
+    },
+    {
+      "id": "7a4b",
+      "patient_name": "nourelhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-03-29T12:02:25.753Z",
+      "updated_at": "2025-03-29T12:02:25.754Z"
+    },
+    {
+      "id": "4a50",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-29T12:14:29.179Z",
+      "updated_at": "2025-03-29T12:14:29.179Z"
+    },
+    {
+      "id": "4146",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-29T15:37:31.547Z",
+      "updated_at": "2025-03-29T15:37:31.547Z"
+    },
+    {
+      "id": "658e",
+      "patient_name": "saloua",
+      "address": "essaouira",
+      "city": "essaouira",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-29T16:43:48.239Z",
+      "updated_at": "2025-03-29T16:43:48.239Z"
+    },
+    {
+      "id": "9425",
+      "patient_name": "saloua",
+      "address": "essaouira",
+      "city": "essaouira",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-29T16:46:01.044Z",
+      "updated_at": "2025-03-29T16:46:01.044Z"
+    },
+    {
+      "id": "b3ca",
+      "patient_name": "saloua",
+      "address": "essaouira",
+      "city": "essaouira",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-30T12:25:00.950Z",
+      "updated_at": "2025-03-30T12:25:00.950Z"
+    },
+    {
+      "id": "5c3e",
+      "patient_name": "saloua",
+      "address": "essaouira",
+      "city": "essaouira",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-30T12:25:17.897Z",
+      "updated_at": "2025-03-30T12:25:17.897Z"
+    },
+    {
+      "id": "b615",
+      "patient_name": "saloua",
+      "address": "essaouira",
+      "city": "essaouira",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-30T12:25:32.106Z",
+      "updated_at": "2025-03-30T12:25:32.106Z"
+    },
+    {
+      "id": "76f3",
+      "patient_name": "saloua",
+      "address": "essaouira",
+      "city": "essaouira",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-30T12:31:26.978Z",
+      "updated_at": "2025-03-30T12:31:26.978Z"
+    },
+    {
+      "id": "2ed5",
+      "patient_name": "saloua",
+      "address": "essaouira",
+      "city": "essaouira",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-30T12:31:35.894Z",
+      "updated_at": "2025-03-30T12:31:35.894Z"
+    },
+    {
+      "id": "a5dd",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-30T12:35:54.416Z",
+      "updated_at": "2025-03-30T12:35:54.417Z"
+    },
+    {
+      "id": "a7bf",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-30T12:38:18.107Z",
+      "updated_at": "2025-03-30T12:38:18.107Z"
+    },
+    {
+      "id": "0419",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-30T12:41:37.173Z",
+      "updated_at": "2025-03-30T12:41:37.173Z"
+    },
+    {
+      "id": "0501",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-30T12:42:53.761Z",
+      "updated_at": "2025-03-30T12:42:53.761Z"
+    },
+    {
+      "id": "3aff",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-30T12:55:29.833Z",
+      "updated_at": "2025-03-30T12:55:29.833Z"
+    },
+    {
+      "id": "1ecd",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-30T12:56:31.333Z",
+      "updated_at": "2025-03-30T12:56:31.333Z"
+    },
+    {
+      "id": "d4fe",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-30T12:58:39.036Z",
+      "updated_at": "2025-03-30T12:58:39.036Z"
+    },
+    {
+      "id": "4f2b",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-30T13:06:05.901Z",
+      "updated_at": "2025-03-30T13:06:05.901Z"
+    },
+    {
+      "id": "0b83",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-30T13:06:18.613Z",
+      "updated_at": "2025-03-30T13:06:18.613Z"
+    },
+    {
+      "id": "372a",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-30T13:35:27.971Z",
+      "updated_at": "2025-03-30T13:35:27.971Z"
+    },
+    {
+      "id": "f464",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-30T13:36:03.642Z",
+      "updated_at": "2025-03-30T13:36:03.642Z"
+    },
+    {
+      "id": "ed17",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-30T13:36:51.992Z",
+      "updated_at": "2025-03-30T13:36:51.992Z"
+    },
+    {
+      "id": "c8f8",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-30T14:59:13.109Z",
+      "updated_at": "2025-03-30T14:59:13.109Z"
+    },
+    {
+      "id": "9ebe",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-30T15:00:16.067Z",
+      "updated_at": "2025-03-30T15:00:16.067Z"
+    },
+    {
+      "id": "ed23",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-03-30T15:00:24.941Z",
+      "updated_at": "2025-03-30T15:00:24.941Z"
+    },
+    {
+      "id": "bf88",
+      "patient_name": "y",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-04-02T12:43:47.660Z",
+      "updated_at": "2025-04-02T12:43:47.661Z"
+    },
+    {
+      "id": "0ba2",
+      "patient_name": "y",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-04-02T12:43:59.948Z",
+      "updated_at": "2025-04-02T12:43:59.948Z"
+    },
+    {
+      "id": "5c4e",
+      "patient_name": "nour elhouda",
+      "address": "merrakech",
+      "city": "ESSAOUIRA",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-04-02T12:44:33.647Z",
+      "updated_at": "2025-04-02T12:44:33.647Z"
+    },
+    {
+      "id": "45bd",
+      "patient_name": "nour elhouda",
+      "address": "merrakech",
+      "city": "ESSAOUIRA",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-04-02T12:44:45.588Z",
+      "updated_at": "2025-04-02T12:44:45.588Z"
+    },
+    {
+      "id": "5b1a",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-04-02T13:06:13.262Z",
+      "updated_at": "2025-04-02T13:06:13.262Z"
+    },
+    {
+      "id": "dd7a",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-04-02T17:35:29.646Z",
+      "updated_at": "2025-04-02T17:35:29.646Z"
+    },
+    {
+      "id": "73f5",
+      "patient_name": "nour elhouda",
+      "address": "merrakech",
+      "city": "ESSAOUIRA",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-04-03T01:15:35.794Z",
+      "updated_at": "2025-04-03T01:15:35.794Z"
+    },
+    {
+      "id": "1c23",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-04T11:01:41.570Z",
+      "updated_at": "2025-04-04T11:01:41.571Z"
+    },
+    {
+      "id": "38b5",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-05T22:33:09.204Z",
+      "updated_at": "2025-04-05T22:33:09.204Z"
+    },
+    {
+      "id": "ad90",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-05T23:03:19.242Z",
+      "updated_at": "2025-04-05T23:03:19.244Z"
+    },
+    {
+      "id": "0304",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-05T23:04:00.186Z",
+      "updated_at": "2025-04-05T23:04:00.186Z"
+    },
+    {
+      "id": "d0e5",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-05T23:04:13.267Z",
+      "updated_at": "2025-04-05T23:04:13.267Z"
+    },
+    {
+      "id": "900f",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-05T23:04:24.869Z",
+      "updated_at": "2025-04-05T23:04:24.869Z"
+    },
+    {
+      "id": "58a5",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-05T23:58:14.850Z",
+      "updated_at": "2025-04-05T23:58:14.850Z"
+    },
+    {
+      "id": "91c9",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-05T23:58:38.955Z",
+      "updated_at": "2025-04-05T23:58:38.955Z"
+    },
+    {
+      "id": "7c11",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T00:06:02.440Z",
+      "updated_at": "2025-04-06T00:06:02.440Z"
+    },
+    {
+      "id": "5492",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "06***090",
+      "created_at": "2025-04-06T00:06:27.103Z",
+      "updated_at": "2025-04-06T00:06:27.103Z"
+    },
+    {
+      "id": "255d",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T00:09:36.897Z",
+      "updated_at": "2025-04-06T00:09:36.897Z"
+    },
+    {
+      "id": "f651",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T00:10:13.716Z",
+      "updated_at": "2025-04-06T00:10:13.716Z"
+    },
+    {
+      "id": "b4a9",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T14:38:40.898Z",
+      "updated_at": "2025-04-06T14:38:40.900Z"
+    },
+    {
+      "id": "8e96",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T14:39:13.549Z",
+      "updated_at": "2025-04-06T14:39:13.549Z"
+    },
+    {
+      "id": "0a11",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T14:39:33.297Z",
+      "updated_at": "2025-04-06T14:39:33.297Z"
+    },
+    {
+      "id": "8f3a",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T14:41:45.908Z",
+      "updated_at": "2025-04-06T14:41:45.908Z"
+    },
+    {
+      "id": "ef9a",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T14:42:08.654Z",
+      "updated_at": "2025-04-06T14:42:08.654Z"
+    },
+    {
+      "id": "76db",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T14:42:22.021Z",
+      "updated_at": "2025-04-06T14:42:22.021Z"
+    },
+    {
+      "id": "5145",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T14:42:31.148Z",
+      "updated_at": "2025-04-06T14:42:31.148Z"
+    },
+    {
+      "id": "d39f",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T15:29:52.133Z",
+      "updated_at": "2025-04-06T15:29:52.133Z"
+    },
+    {
+      "id": "50e3",
+      "patient_name": "amine",
+      "address": "merrakech",
+      "city": "benimellal",
+      "postcode": "25000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T15:30:13.087Z",
+      "updated_at": "2025-04-06T15:30:13.087Z"
+    },
+    {
+      "id": "84b4",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T15:35:18.047Z",
+      "updated_at": "2025-04-06T15:35:18.047Z"
+    },
+    {
+      "id": "a317",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T15:35:46.078Z",
+      "updated_at": "2025-04-06T15:35:46.078Z"
+    },
+    {
+      "id": "8a04",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T15:36:11.399Z",
+      "updated_at": "2025-04-06T15:36:11.399Z"
+    },
+    {
+      "id": "8d26",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T15:37:15.372Z",
+      "updated_at": "2025-04-06T15:37:15.372Z"
+    },
+    {
+      "id": "e1a6",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T15:37:24.284Z",
+      "updated_at": "2025-04-06T15:37:24.284Z"
+    },
+    {
+      "id": "2854",
+      "patient_name": "nour elhoudas",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T15:37:43.626Z",
+      "updated_at": "2025-04-06T15:37:43.626Z"
+    },
+    {
+      "id": "330e",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T15:40:17.337Z",
+      "updated_at": "2025-04-06T15:40:17.337Z"
+    },
+    {
+      "id": "d5bb",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T15:41:33.054Z",
+      "updated_at": "2025-04-06T15:41:33.054Z"
+    },
+    {
+      "id": "50ae",
+      "patient_name": "katrennada",
+      "address": "china",
+      "city": "nantong",
+      "postcode": "448 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T15:45:20.187Z",
+      "updated_at": "2025-04-06T15:45:20.187Z"
+    },
+    {
+      "id": "969e",
+      "patient_name": "katrennada",
+      "address": "china",
+      "city": "nantong",
+      "postcode": "448 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T15:46:02.087Z",
+      "updated_at": "2025-04-06T15:46:02.087Z"
+    },
+    {
+      "id": "5785",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "Marrakech",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T15:46:33.932Z",
+      "updated_at": "2025-04-06T15:46:33.932Z"
+    },
+    {
+      "id": "9bd8",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "Marrakech",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T15:50:50.628Z",
+      "updated_at": "2025-04-06T15:50:50.628Z"
+    },
+    {
+      "id": "65a2",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T15:54:11.488Z",
+      "updated_at": "2025-04-06T15:54:11.488Z"
+    },
+    {
+      "id": "1820",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T15:55:16.154Z",
+      "updated_at": "2025-04-06T15:55:16.154Z"
+    },
+    {
+      "id": "6ad2",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T15:55:23.325Z",
+      "updated_at": "2025-04-06T15:55:23.325Z"
+    },
+    {
+      "id": "96f3",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T15:55:37.652Z",
+      "updated_at": "2025-04-06T15:55:37.652Z"
+    },
+    {
+      "id": "51a5",
+      "patient_name": "katrennada",
+      "address": "china",
+      "city": "nantong",
+      "postcode": "448 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T17:06:47.250Z",
+      "updated_at": "2025-04-06T17:06:47.250Z"
+    },
+    {
+      "id": "5550",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T17:13:00.264Z",
+      "updated_at": "2025-04-06T17:13:00.264Z"
+    },
+    {
+      "id": "30ab",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T17:13:21.431Z",
+      "updated_at": "2025-04-06T17:13:21.431Z"
+    },
+    {
+      "id": "fba0",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T17:31:13.038Z",
+      "updated_at": "2025-04-06T17:31:13.038Z"
+    },
+    {
+      "id": "453f",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T17:32:03.028Z",
+      "updated_at": "2025-04-06T17:32:03.028Z"
+    },
+    {
+      "id": "abc0",
+      "patient_name": "nour elhoudas",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T17:34:12.806Z",
+      "updated_at": "2025-04-06T17:34:12.806Z"
+    },
+    {
+      "id": "d243",
+      "patient_name": "nour elhoudasa",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T17:34:43.161Z",
+      "updated_at": "2025-04-06T17:34:43.161Z"
+    },
+    {
+      "id": "bd68",
+      "patient_name": "nour elhoudasaaa",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T17:35:11.464Z",
+      "updated_at": "2025-04-06T17:35:11.464Z"
+    },
+    {
+      "id": "883e",
+      "patient_name": "nour elhoudasaaa",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "ESSAOUIRA",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T17:35:24.748Z",
+      "updated_at": "2025-04-06T17:35:24.748Z"
+    },
+    {
+      "id": "a0ee",
+      "patient_name": "nour elhoudaaa",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T17:36:02.192Z",
+      "updated_at": "2025-04-06T17:36:02.192Z"
+    },
+    {
+      "id": "cd53",
+      "patient_name": "nour elhoudaaa",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T17:39:10.056Z",
+      "updated_at": "2025-04-06T17:39:10.056Z"
+    },
+    {
+      "id": "52b5",
+      "patient_name": "nour elhoudaaa",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T17:39:16.468Z",
+      "updated_at": "2025-04-06T17:39:16.468Z"
+    },
+    {
+      "id": "5fbc",
+      "patient_name": "kninif",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T17:40:57.702Z",
+      "updated_at": "2025-04-06T17:40:57.702Z"
+    },
+    {
+      "id": "91eb",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T17:44:10.861Z",
+      "updated_at": "2025-04-06T17:44:10.861Z"
+    },
+    {
+      "id": "4953",
+      "patient_name": "nour elhouda",
+      "address": "243 LOT LA LAGUNE ESSAOUIRA",
+      "city": "all",
+      "postcode": "44 000",
+      "phone": "0681423135",
+      "created_at": "2025-04-06T17:46:13.865Z",
+      "updated_at": "2025-04-06T17:46:13.865Z"
+    }
+  ],
+  "order_items": [
+    {
+      "id": "846b",
+      "order_id": "d243",
+      "medicine_id": "9133",
+      "pharmacy_id": "1",
+      "quantity": 1
+    },
+    {
+      "id": "1281",
+      "order_id": "883e",
+      "medicine_id": "9133",
+      "pharmacy_id": "1",
+      "quantity": 1
+    },
+    {
+      "id": "cfda",
+      "order_id": "a0ee",
+      "medicine_id": "9133",
+      "pharmacy_id": "1",
+      "quantity": 4
+    },
+    {
+      "id": "3b0b",
+      "order_id": "52b5",
+      "medicine_id": "9133",
+      "pharmacy_id": "1",
+      "quantity": 4
+    },
+    {
+      "id": "8539",
+      "order_id": "5fbc",
+      "medicine_id": "9133",
+      "pharmacy_id": "1",
+      "quantity": 4
+    },
+    {
+      "id": "119b",
+      "order_id": "91eb",
+      "medicine_id": "9132",
+      "pharmacy_id": "2",
+      "quantity": 1
+    }
+  ],
+  "pharmacies": [
+    {
+      "id": "1",
+      "name": "Essaouira Pharmacy",
+      "address": "456 Pharmacy Rd",
+      "phone": "9876543210",
+      "api_key": "ABC123XYZ",
+      "coordinate": "40.7128,-74.0060",
+      "link": "https://citypharmacy.com",
+      "status": "open",
+      "street": "Pharmacy Rd"
+    },
+    {
+      "id": "2",
+      "name": "najd Pharmacy",
+      "address": "456 Pharmacy Rd",
+      "phone": "9876543210",
+      "api_key": "ABC123XYZ",
+      "coordinate": "40.7128,-74.0060",
+      "link": "https://najdpharma.com",
+      "status": "open",
+      "street": "Pharmacy Rd"
+    }
+  ],
+  "payments": [
+    {
+      "id": "1",
+      "card_number": "**** **** **** 1234",
+      "amount": 100.5,
+      "payment_date": "2024-03-19T12:30:00Z",
+      "payment_method": "Credit Card",
+      "order_id": 1
+    },
+    {
+      "id": "16ee",
+      "card_number": "**** **** **** 4000",
+      "payment_method": "Credit Card",
+      "order_id": "91c9",
+      "amount": 18.56,
+      "payment_date": "2025-04-05T23:58:39.124Z"
+    },
+    {
+      "id": "fb68",
+      "card_number": "**** **** **** 4000",
+      "payment_method": "Credit Card",
+      "order_id": "7c11",
+      "amount": 321,
+      "payment_date": "2025-04-06T00:06:02.569Z"
+    },
+    {
+      "id": "48ec",
+      "card_number": "**** **** **** 4000",
+      "payment_method": "Credit Card",
+      "order_id": "5492",
+      "amount": 321,
+      "payment_date": "2025-04-06T00:06:27.228Z"
+    },
+    {
+      "id": "23b0",
+      "card_number": "**** **** **** 4000",
+      "payment_method": "Credit Card",
+      "order_id": "255d",
+      "amount": 160.5,
+      "payment_date": "2025-04-06T00:09:37.046Z"
+    },
+    {
+      "id": "91c7",
+      "card_number": "**** **** **** 4000",
+      "payment_method": "Credit Card",
+      "order_id": "f651",
+      "amount": 160.5,
+      "payment_date": "2025-04-06T00:10:13.881Z"
+    },
+    {
+      "id": "be2e",
+      "card_number": "**** **** **** 4000",
+      "payment_method": "PayPal",
+      "order_id": "a0ee",
+      "amount": 14.28,
+      "payment_date": "2025-04-06T17:36:02.228Z"
+    },
+    {
+      "id": "f1b6",
+      "card_number": "**** **** **** 4000",
+      "payment_method": "Credit Card",
+      "order_id": "cd53",
+      "amount": 14.28,
+      "payment_date": "2025-04-06T17:39:10.202Z"
+    },
+    {
+      "id": "82f6",
+      "card_number": "**** **** **** 4000",
+      "payment_method": "Credit Card",
+      "order_id": "52b5",
+      "amount": 14.28,
+      "payment_date": "2025-04-06T17:39:16.656Z"
+    },
+    {
+      "id": "0428",
+      "card_number": "**** **** **** 4000",
+      "payment_method": "PayPal",
+      "order_id": "5fbc",
+      "amount": 14.28,
+      "payment_date": "2025-04-06T17:40:57.850Z"
+    },
+    {
+      "id": "6d29",
+      "card_number": "**** **** **** 4000",
+      "payment_method": "PayPal",
+      "order_id": "91eb",
+      "amount": 160.5,
+      "payment_date": "2025-04-06T17:44:11.019Z"
+    },
+    {
+      "id": "251c",
+      "card_number": "**** **** **** 4000",
+      "payment_method": "PayPal",
+      "order_id": "4953",
+      "amount": 160.5,
+      "payment_date": "2025-04-06T17:46:14.107Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "2",
+      "first_name": "Alice",
+      "last_name": "Johnson",
+      "email": "pharmacieessaouira@gmail.com",
+      "password": "123",
+      "is_pharmacy": false,
+      "pharmacy_id": null
+    },
+    {
+      "id": "1",
+      "first_name": "Bob",
+      "last_name": "Smith",
+      "email": "pharmacist@gmail.com",
+      "password": "hashedpassword",
+      "is_pharmacy": true,
+      "pharmacy_id": 1
+    },
+    {
+      "id": "eaff",
+      "first_name": "Nour elhouda",
+      "last_name": "Assiddeki",
+      "email": "nourelhoudaassiddeki@gmail.com",
+      "password": "thebigboss",
+      "is_pharmacy": false,
+      "pharmacy_id": null
+    },
+    {
+      "id": "9b05",
+      "first_name": "nouna",
+      "last_name": "Assiddeki",
+      "email": "pharmanajd@gmail.com",
+      "password": "thebigboss",
+      "is_pharmacy": "on",
+      "pharmacy_id": 2
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "Admin"
+    },
+    {
+      "id": "2",
+      "name": "User"
+    }
+  ],
+  "user_roles": [
+    {
+      "user_id": 1,
+      "role_id": 1,
+      "id": "f3ba"
+    },
+    {
+      "user_id": 2,
+      "role_id": 2,
+      "id": "bb89"
+    }
+  ],
+  "pharmacy-medicines": [
+    {
+      "pharmacy_id": 1,
+      "medicine_id": 1,
+      "quantity": 1,
+      "id": "18f3"
+    },
+    {
+      "pharmacy_id": 1,
+      "medicine_id": 2,
+      "quantity": 6,
+      "id": "a771"
+    },
+    {
+      "pharmacy_id": 1,
+      "medicine_id": 3,
+      "quantity": 47,
+      "id": "8775"
+    },
+    {
+      "pharmacy_id": 1,
+      "medicine_id": 4,
+      "quantity": 16,
+      "id": "1285"
+    },
+    {
+      "pharmacy_id": 1,
+      "medicine_id": 9125,
+      "quantity": 12,
+      "id": "99eb"
+    },
+    {
+      "pharmacy_id": 1,
+      "medicine_id": 9124,
+      "quantity": 0,
+      "id": "10c5"
+    },
+    {
+      "pharmacy_id": 1,
+      "medicine_id": 9123,
+      "quantity": 6,
+      "id": "7770"
+    },
+    {
+      "id": "3fd7",
+      "pharmacy_id": 2,
+      "medicine_id": 3131,
+      "quantity": 40
+    },
+    {
+      "id": "3fd7",
+      "pharmacy_id": 1,
+      "medicine_id": 3131,
+      "quantity": 50
+    },
+    {
+      "id": "e40b",
+      "pharmacy_id": 1,
+      "medicine_id": 5,
+      "quantity": 9
+    },
+    {
+      "id": "0b25",
+      "pharmacy_id": 2,
+      "medicine_id": 9131,
+      "quantity": 30
+    },
+    {
+      "id": "6248",
+      "pharmacy_id": 1,
+      "medicine_id": 9131,
+      "quantity": 14
+    },
+    {
+      "id": "8b4d",
+      "pharmacy_id": 2,
+      "medicine_id": 9126,
+      "quantity": 20
+    },
+    {
+      "id": "21d1",
+      "pharmacy_id": 1,
+      "medicine_id": 9132,
+      "quantity": 6
+    },
+    {
+      "id": "3da5",
+      "pharmacy_id": 2,
+      "medicine_id": 9132,
+      "quantity": 10
+    },
+    {
+      "id": "3eaf",
+      "pharmacy_id": 1,
+      "medicine_id": 9133,
+      "quantity": 4
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+/* AddMedicine.css */  
+
+.add-medicine-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 6rem;
+    background-color: #ffffff;
+    min-height: 100vh;
+  }
+  
+  .add-medicine-card {
+    background-color: #f5f1eb;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden;
+  }
+  
+  .card-header {
+    background-color: #3a6ea5;
+    color: white;
+    margin: 0;
+    padding: 1.2rem 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .medicine-form {
+    padding: 1.5rem;
+    background-color: #f5f1eb;
+  }
+  
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+  }
+  
+  @media (max-width: 1100px) {
+    .form-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+    .review-data {
+      grid-column: span 2;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .form-grid {
+      grid-template-columns: 1fr;
+    }
+    .review-data {
+      grid-column: span 1;
+    }
+  }
+  
+  .form-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #3a6ea5;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  .form-group input, 
+  .form-group textarea {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .form-group input:focus, 
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #3a6ea5;
+    box-shadow: 0 0 0 2px rgba(58, 110, 165, 0.2);
+  }
+  
+  .input-error {
+    border-color: #dc3545 !important;
+  }
+  
+  /* Image Preview */
+  .image-preview-container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 150px;
+    background-color: #f8f9fa;
+  }
+  
+  .medicine-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  .no-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: #aaa;
+    font-size: 0.9rem;
+  }
+  
+  .image-error {
+    color: #dc3545;
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+  }
+  
+  /* Review section */
+  .review-inputs {
+    margin-bottom: 1.5rem;
+  }
+  
+  .color-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 6px;
+  }
+  
+  .color-dot.excellent {
+    background-color: #28a745;
+  }
+  
+  .color-dot.average {
+    background-color: #ffc107;
+  }
+  
+  .color-dot.poor {
+    background-color: #dc3545;
+  }
+  
+  .total-percentage {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .total-percentage.error {
+    color: #dc3545;
+    background-color: #f8d7da;
+  }
+  
+  /* SVG Graph */
+  .review-graph-container {
+    margin-top: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+    background-color: white;
+  }
+  
+  .review-curve {
+    overflow: visible;
+  }
+  
+  .grid-line {
+    stroke: #e5e5e5;
+    stroke-width: 1;
+  }
+  
+  .axis-label {
+    font-size: 10px;
+    text-anchor: middle;
+    fill: #666;
+  }
+  
+  .review-path {
+    stroke-width: 2;
+    stroke: #3a6ea5;
+  }
+  
+  .data-point {
+    fill: white;
+    stroke-width: 2;
+  }
+  
+  .data-point.excellent {
+    stroke: #28a745;
+    fill: #28a745;
+  }
+  
+  .data-point.average {
+    stroke: #ffc107;
+    fill: #ffc107;
+  }
+  
+  .data-point.poor {
+    stroke: #dc3545;
+    fill: #dc3545;
+  }
+  
+  .value-label {
+    font-size: 10px;
+    text-anchor: middle;
+    font-weight: bold;
+  }
+  
+  .value-label.excellent {
+    fill: #28a745;
+  }
+  
+  .value-label.average {
+    fill: #ffc107;
+  }
+  
+  .value-label.poor {
+    fill: #dc3545;
+  }
+  
+  /* Form Actions */
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+  }
+  
+  .submit-button {
+    background-color: #0a0000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .submit-button:hover {
+    background-color: #f5f1eb;
+  }

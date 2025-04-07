@@ -1,0 +1,105 @@
+/* Professional CSS for Scientific Formulation Component */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 50px 0 20px 30px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+
+    padding-bottom: 0.5rem;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+  }
+  
+  ul {
+    padding-left: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  li {
+    margin-bottom: 1rem;
+    position: relative;
+    list-style-type: none;
+    padding-left: 1.5rem;
+  }
+  
+  li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+    width: 8px;
+    height: 8px;
+    background-color: #1c4d28;
+    border-radius: 50%;
+  }
+  
+  strong {
+    color: #000000;
+    font-weight: 600;
+  }
+  
+  .footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eee;
+    font-style: italic;
+    color: #7f8c8d;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .container {
+      padding: 1.5rem;
+    }
+    
+    h1 {
+      font-size: 2rem;
+    }
+    
+    h2 {
+      font-size: 1.5rem;
+    }
+    
+    p, li {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Enhance accessibility */
+  :focus {
+    outline: 3px solid #114a2d;
+    outline-offset: 2px;
+  }
+  
+  /* Subtle hover effects */
+  li:hover:before {
+    background-color: #2c3e50;
+    transform: scale(1.2);
+    transition: all 0.2s ease;
+  }

@@ -1,0 +1,363 @@
+/* Global styles and variables */
+:root {
+  --primary-color: #0072bc;
+  --secondary-color: #4caf50;
+  --dark-color: #333;
+  --light-color: #f9f9f9;
+  --gray-color: #e0e0e0;
+  --text-color: #444;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --transition: all 0.3s ease;
+  --border-radius: 4px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
+  color: var(--text-color);
+  
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Featured Products Section */
+.featured-products {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+/* Explicitly target any element containing the featured products */
+div, section {
+  background-color: #fff;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 40px;
+  background-color: #fff;
+}
+
+.section-header h2 {
+  font-size: 28px;
+  color: var(--primary-color);
+  margin-bottom: 8px;
+  font-weight: 600;
+  background-color: #fff;
+}
+
+.section-header p {
+  color: #777;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+  background-color: #fff;
+}
+
+/* Product Card */
+.product-card {
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: var(--transition);
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+  background-color: #f7f7f7;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.5s ease;
+}
+
+.product-card:hover .product-image img {
+  transform: scale(1.05);
+}
+
+.badge {
+  position: absolute;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 3px;
+  z-index: 2;
+}
+
+.badge.new {
+  background-color: var(--secondary-color);
+  color: white;
+  top: 10px;
+  left: 10px;
+}
+
+.badge.discount {
+  background-color: #ff6b6b;
+  color: white;
+  top: 10px;
+  right: 10px;
+}
+
+.product-details {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.product-name {
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.4;
+  color: var(--dark-color);
+  height: 44px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.product-rating {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 2px;
+}
+
+.star-filled {
+  color: #ffc107;
+}
+
+.star-empty {
+  color: #e0e0e0;
+}
+
+.product-price {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.original-price {
+  color: #999;
+  text-decoration: line-through;
+  font-size: 14px;
+}
+
+.current-price {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.product-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.product-actions button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  transition: var(--transition);
+}
+.pharma-container{
+  top: 100px;
+position: relative;
+}
+.add-to-cart-btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #005a9e;
+}
+
+.quick-view-btn, .add-to-wishlist-btn {
+    background-color: #f0f0f0;
+    color: var(--dark-color);
+  }
+  
+  .quick-view-btn:hover, .add-to-wishlist-btn:hover {
+    background-color: #f5f1eb ;
+  }
+  
+  /* Targeted override for green backgrounds - excluding footer */
+  .featured-products h2, 
+  .featured-products p, 
+  .featured-products div,
+  .featured-products section,
+  .featured-products .section-header,
+  .featured-products .products-grid,
+  .featured-products .container {
+    background-color: #ffffff !important;
+  }
+  
+  /* Section title styling */
+  .section-header h2 {
+    color: var(--primary-color);
+  }
+  
+  .section-header p {
+    color: #777;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 992px) {
+    .products-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .products-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .section-header h2 {
+      font-size: 24px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .products-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .product-image {
+      height: 200px;
+    }
+    
+    .featured-products {
+      padding: 40px 0;
+    }
+  }
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .medicine-details {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .medicine-img {
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  .cart {
+    padding: 20px;
+  }
+  
+  .cart ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart button {
+    margin-left: 10px;
+    cursor: pointer;
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+  }
+  .stock-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+  }
+  
+  span {
+    font-weight: bold;
+    color: red;
+  }
+  .add-medicine-form {
+    margin: 20px 0;
+    padding: 10px;
+    background: #f4f4f4;
+    border-radius: 5px;
+  }
+  
+  .add-medicine-form input {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .add-medicine-form button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 3px;
+  }
+  
+  .add-medicine-form button:hover {
+    background: #218838;
+  }
+      
